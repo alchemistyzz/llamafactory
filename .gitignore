@@ -169,7 +169,6 @@ uv.lock
 ms_cache/
 hf_cache/
 om_cache/
-cache/
 config/
 saves/
 output/
