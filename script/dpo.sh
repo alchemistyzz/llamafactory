@@ -16,7 +16,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --flash_attn fa2 \
     --dataset_dir dataset \
     --dataset critique-VQA-DPO \
-    --cutoff_len 1024 \
+    --cutoff_len 2048 \
     --learning_rate 5e-05 \
     --num_train_epochs 5.0 \
     --max_samples 100000 \
