@@ -1,5 +1,5 @@
 export NPROC_PER_NODE=8
-export MAX_PIXELS=1003520 
+export MAX_PIXELS=401408 
 export WANDB_BASE_URL=https://api.wandb.ai 
 export WANDB_PROJECT=cold_start 
 export WANDB_API_KEY=19e2bb17296ca54e3b6de27ef184eac2eb7efd5f 
