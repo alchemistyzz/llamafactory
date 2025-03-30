@@ -36,4 +36,4 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --ddp_timeout 180000000 \
     --include_num_input_tokens_seen True \
     --optim adamw_torch \
-    --deepspeed cache/ds_z2_config.json 
+    --deepspeed cache/ds_z3_config.json 
