@@ -39,4 +39,4 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --pref_beta 0.1 \
     --pref_ftx 0 \
     --pref_loss sigmoid \
-    --deepspeed cache/ds_z2_config.json 
+    --deepspeed cache/ds_z3_config.json 
