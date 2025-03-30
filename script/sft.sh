@@ -16,7 +16,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --flash_attn fa2 \
     --dataset_dir dataset \
     --dataset critique-VQA-SFT \
-    --cutoff_len 2048 \
+    --cutoff_len 1024 \
     --learning_rate 5e-05 \
     --num_train_epochs 5.0 \
     --max_samples 100000 \
@@ -30,7 +30,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --packing False \
     --report_to wandb \
     --output_dir outputs/Qwen2.5-VL-7B-Instruct/sft/train_$(date +%Y-%m-%d-%H-%M-%S) \
-    --[bf16] True \
+    --bf16 True \
     --plot_loss True \
     --trust_remote_code True \
     --ddp_timeout 180000000 \
