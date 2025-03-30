@@ -29,7 +29,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --warmup_steps 100 \
     --packing False \
     --report_to wandb \
-    --output_dir saves/Qwen2.5-VL-7B-Instruct/full/train_2025-03-29-17-10-16 \
+    --output_dir outputs/Qwen2.5-VL-7B-Instruct/dpo/train_$(date +%Y-%m-%d-%H-%M-%S)  \
     --bf16 True \
     --plot_loss True \
     --trust_remote_code True \
