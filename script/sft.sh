@@ -3,7 +3,7 @@ export MAX_PIXELS=1003520
 export WANDB_BASE_URL=https://api.wandb.ai 
 export WANDB_PROJECT=cold_start 
 export WANDB_API_KEY=19e2bb17296ca54e3b6de27ef184eac2eb7efd5f 
-export WANDB_RUN_NAME=Qwen-VL2_5-7B-SFT-CRITIC-V-29K-$(date +%Y-%m-%d-%H-%M-%S) 
+export WANDB_RUN_NAME=Qwen-VL2_5-7B-SFT-projudge-14k-$(date +%Y-%m-%d-%H-%M-%S) 
 export USE_HF=1 
 
 FORCE_TORCHRUN=1 llamafactory-cli train \
@@ -15,7 +15,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train \
     --template qwen2_vl \
     --flash_attn fa2 \
     --dataset_dir dataset \
-    --dataset critique-VQA-SFT \
+    --dataset projudge-14k-critic \
     --cutoff_len 2048 \
     --learning_rate 5e-05 \
     --num_train_epochs 5.0 \
