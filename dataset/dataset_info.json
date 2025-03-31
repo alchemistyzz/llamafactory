@@ -739,7 +739,7 @@
         }
       },
       "projudge-14k-critic": {
-        "file_name": "projudge-14k-critic/converted/filtered_k12_critique.json",
+        "file_name": "projudge-14k-critic/converted/filtered_k12_critique_fixed.json",
         "formatting": "sharegpt",
         "columns": {
           "messages": "messages",
